@@ -67,6 +67,14 @@ article section p{
     text-align: justify;
 }
 
+ul li{
+    color: var(--main-color-text);
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 12px;
+    margin-left: 30px;
+}
+
 section{
     margin-top: 50px;
 }
@@ -86,4 +94,176 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-track {
     border-radius: 10px;  
+}
+
+@media (max-width: 990px){
+    header p{
+        text-align: center;
+        right: 25vw;
+    }
+
+}
+
+@media (max-width: 800px){
+    header p{
+        text-align: center;
+        right: 20vw;
+    }
+
+}
+
+@media (max-width: 700px){
+    header p{
+        font-size: 60px;
+        text-align: center;
+        right: 20vw;
+    }
+    
+    header p svg{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media (max-width: 530px){
+    header p{
+        font-size: 60px;
+        text-align: center;
+        right: 15vw;
+    }
+    
+    header p svg{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media (max-width: 470px){
+    header p{
+        font-size: 60px;
+        text-align: center;
+        right: 10vw;
+    }
+    
+    header p svg{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media (max-width: 425px){
+    header p{
+        font-size: 50px;
+        text-align: center;
+        right: 12vw;
+    }
+    
+    header p svg{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (max-width: 370px){
+    header p{
+        font-size: 50px;
+        text-align: center;
+        right: 10vw;
+    }
+    
+    header p svg{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (max-width: 350px){
+    header p{
+        font-size: 50px;
+        text-align: center;
+        right: 12vw;
+        flex-direction:column;
+    }
+    
+    header p svg{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+
+@media (max-width: 300px){
+    header p{
+        font-size: 50px;
+        text-align: center;
+        right: 10vw;
+        flex-direction:column;
+    }
+    
+    header p svg{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (max-width: 290px){
+    header p{
+        font-size: 40px;
+        text-align: center;
+        right: 10vw;
+        flex-direction:column;
+    }
+    
+    header p svg{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (max-width: 235px){
+    header p{
+        font-size: 30px;
+        text-align: center;
+        right: 10vw;
+        flex-direction:column;
+    }
+    
+    header p svg{
+        height: 40px;
+        width: 40px;
+    }
+
+    header img{
+        margin-right: 600px;
+    }
+}
+
+@media (max-height:411px){
+    header p{
+        font-size: 50px;
+        text-align: center;
+        right: 8vw;
+        top: 40vh;
+        flex-direction:column;
+    }
+    
+    header p svg{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (max-height:360px){
+    header p{
+        font-size: 40px;
+        text-align: center;
+        right: 8vw;
+        top: 40vh;
+        flex-direction:column;
+    }
+    
+    header p svg{
+        height: 50px;
+        width: 50px;
+    }
 }
